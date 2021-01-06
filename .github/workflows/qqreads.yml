@@ -35,7 +35,7 @@ jobs:
       - name: '运行 【企鹅读书】'
         if: env.QQREAD_TIMEHD
         run: |
-          cd ~/JavaScript
+          cd ~/qqread
           node Task/qqreads.js
         env:
           
